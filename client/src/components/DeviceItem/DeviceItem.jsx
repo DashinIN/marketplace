@@ -9,7 +9,6 @@ import s from "./DeviceItem.module.scss"
 const DeviceItem = ({device}) => {
 
     const history = useHistory()
-
     const [type, setType] = useState("");
     const [brand, setBrand] = useState("");
     

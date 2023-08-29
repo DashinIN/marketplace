@@ -6,7 +6,6 @@ import s from "./Typebar.module.scss"
 
 const Typebar = observer(() => {
         const {device} = useContext(Context)
-        console.log(device.types)
     return (
         <>
         <div>
